@@ -12,13 +12,13 @@
         android:theme="@style/Theme.GalangDana"
         tools:targetApi="31">
         <activity
-            android:name=".view.HistoryActivity"
+            android:name="com.Aldhy.donasi.donasi.view.HistoryActivity"
             android:exported="false" />
         <activity
-            android:name=".view.DonasiActivity"
+            android:name="com.Aldhy.donasi.donasi.view.DonasiActivity"
             android:exported="false" />
         <activity
-            android:name=".view.MainActivity"
+            android:name="com.Aldhy.donasi.donasi.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

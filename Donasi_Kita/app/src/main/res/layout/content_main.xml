@@ -28,15 +28,15 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/ic_donation_one" />
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_donasi_masyarakat1" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Donasi Kemanusiaan"
+                    android:text="Donasi Masyarakat"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -66,15 +66,16 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/ic_donation_two" />
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:src="@drawable/ic_donasi_hewan1" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Donasi Tanaman"
+                    android:text="Donasi Hewan"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -111,15 +112,15 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:src="@drawable/ic_donation_three" />
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_donasi_riwayat" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Riwayat Donasi"
+                    android:text="Riwayat donasi"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 

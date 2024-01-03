@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.azhar.donasi'
+    namespace 'com.Aldhy.donasi'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.azhar.donasi"
+        applicationId "com.Aldhy.donasi"
         minSdk 23
         targetSdk 33
         versionCode 1
