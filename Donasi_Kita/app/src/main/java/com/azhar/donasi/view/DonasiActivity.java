@@ -24,7 +24,7 @@ public class DonasiActivity extends AppCompatActivity {
     BottomSheetDialog bottomSheetDialog;
     AppCompatButton btnDonasi;
     LinearLayout linearVA;
-    int strNominal = "";
+    String strNominal = "";
     String strKeterangan = "";
     DonasiViewModel donasiViewModel;
 
@@ -54,10 +54,10 @@ public class DonasiActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (chipOne.isChecked()) {
-                    strNominal = 10000;
+                    strNominal = "10000";
                     setNominal(strNominal);
                 } else {
-                    strNominal = 0;
+                    strNominal = "0";
                     setNominal(strNominal);
                 }
             }
@@ -67,10 +67,10 @@ public class DonasiActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (chipTwo.isChecked()) {
-                    strNominal = 20000;
+                    strNominal = "20000";
                     setNominal(strNominal);
                 } else {
-                    strNominal = 0;
+                    strNominal = "0";
                     setNominal(strNominal);
                 }
             }
@@ -80,10 +80,10 @@ public class DonasiActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (chipThree.isChecked()) {
-                    strNominal = 50000;
+                    strNominal = "50000";
                     setNominal(strNominal);
                 } else {
-                    strNominal = 0;
+                    strNominal = "0";
                     setNominal(strNominal);
                 }
             }
@@ -106,7 +106,7 @@ public class DonasiActivity extends AppCompatActivity {
                 Toast.makeText(DonasiActivity.this, "Data tidak boleh ada yang kosong!",
                         Toast.LENGTH_SHORT).show();
             } else {
-                donasiViewModel.addDonasi(strKeterangan, strNominal);
+                donasiViewModel.addDonasi(strKeterangan, Integer.parseInt(strNominal));
                 Toast.makeText(DonasiActivity.this,
                         "Terima kasih donasinya, cek di menu riwayat ya!", Toast.LENGTH_SHORT).show();
                 finish();
